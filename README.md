@@ -7,10 +7,10 @@ Boot, etc.
 
 The (over-engineered system) consists of:
 
-* `time-eureka-server`: Eureka server where to register all the different microservices.
-* `time-config-server`: A place where to store the configuration of the different microservices.
-* `time-service`: A microservice that returns the current date in the configured format.
-* `time-ui`: An user interface to show the current date obtained from `time-service`.
+* [`time-eureka-server`](https://github.com/Time-app-with-Spring-Cloud/time-eureka-server): Eureka server where to register all the different microservices.
+* [`time-config-server`](https://github.com/Time-app-with-Spring-Cloud/time-config-server): A place where to store the configuration of the different microservices.
+* [`time-service`](https://github.com/Time-app-with-Spring-Cloud/time-service): A microservice that returns the current date in the configured format.
+* [`time-ui`](https://github.com/Time-app-with-Spring-Cloud/time-ui): An user interface to show the current date obtained from `time-service`.
 
 ![Time app diagram](img/time-app-diagram.png)
 
