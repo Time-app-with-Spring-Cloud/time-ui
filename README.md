@@ -11,6 +11,7 @@ The (over-engineered system) consists of:
 * [`time-config-server`](https://github.com/Time-app-with-Spring-Cloud/time-config-server): A place where to store the configuration of the different microservices.
 * [`time-service`](https://github.com/Time-app-with-Spring-Cloud/time-service): A microservice that returns the current date in the configured format.
 * [`time-ui`](https://github.com/Time-app-with-Spring-Cloud/time-ui): An user interface to show the current date obtained from `time-service`.
+* [`time-hystrix-dashboard`](https://github.com/Time-app-with-Spring-Cloud/time-hystrix-dashboard): Hystrix dashboard to monitor the `time-ui` circuit breakers.
 
 ![Time app diagram](img/time-app-diagram.png)
 
